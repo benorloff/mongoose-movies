@@ -32,6 +32,6 @@ function create(req, res) {
     if (err) return res.render('movies/new');
     console.log(movie);
     // for now, redirect right back to new.ejs
-    res.redirect('/movies/new');
+    res.redirect('/movies');
   }); 
 }

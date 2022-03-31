@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <title>Mongoose Movies</title>
 </head>
-<body>
+<body class="container">
   <h1>Movie List</h1>
-  <table>
+  <table class="table table-hover">
     <thead>
       <tr>
         <th>Title</th>
@@ -34,5 +35,6 @@
       <% }); %> 
     </tbody>
   </table>
+  <a href="/">Back to home</a>
 </body>
 </html>
